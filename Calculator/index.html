@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--Loucura, Loucura-->
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Calculadora</title>
+        <meta name="author" content="Paulo Henrique">
+        <meta name="description" content="Calculadora Simples criada com intuito de praticar o conteúdo abstraido do curso">
+        <meta name="keywords" content="Calculadora Simples, calculadora, HTML, CSS, JavaScript">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Calculadora Simples</h1>
+        <form action="#" method="POST" name="calc" id="calcContainer">
+            <div class="displayText">
+                <input type="text" class="inputText" name="textDisplay" readonly>
+            </div>
+            <div class="numberContainer">
+                <!-- Primeira Parte -->
+                <input type="button" value="C" class="btnclear">
+                <input type="button" value="/" class="btndiv">
+                <!-- Segunda Parte -->
+                <input type="button" value="7" class="btnnumber"> 
+                <input type="button" value="8" class="btnnumber"> 
+                <input type="button" value="9" class="btnnumber">
+                <input type="button" value="*" class="btnmult">
+                <!-- Terceira Parte -->
+                <input type="button" value="4" class="btnnumber">
+                <input type="button" value="5" class="btnnumber">
+                <input type="button" value="6" class="btnnumber">
+                <input type="button" value="-" class="btnsub">
+                <!-- Quarta Parte -->
+                <input type="button" value="1" class="btnnumber">
+                <input type="button" value="2" class="btnnumber">
+                <input type="button" value="3" class="btnnumber">
+                <input type="button" value="+" class="btnsoma">
+                <!-- Quinta Parte -->
+                <input type="button" value="0" class="btnzero">
+                <input type="button" value="." class="btndot">
+                <input type="button" value="=" class="btnequal">
+            </div>
+        </form>
+    </body>
+    <script src="./z_Calc.js"></script>
+</html>

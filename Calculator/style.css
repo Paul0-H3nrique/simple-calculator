@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    background: linear-gradient(to bottom, #f46b45, #eea849) no-repeat center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    text-align: center;
+    margin: 1em;
+}
+form{
+    width: 30%;
+    margin: 1em auto;
+}
+/*  */
+#calcContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+}
+.inputText{
+    width: 100%;
+    height: 5.5em;
+    padding: 1rem 2.5rem;
+    font-size: 3.5em;
+    text-align: right;
+    color: white;
+    background-image: linear-gradient(to top right, #ff4e50, #f9d423);
+
+    border: none;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
+.numberContainer{
+    display: flex;
+    flex-wrap: wrap;
+    height: 35em;
+}
+.btndiv,
+.btnmult,
+.btnsub,
+.btnsoma,
+.btnnumber,
+.btndot,
+.btnequal{
+    width: 25%;
+    font-size: 2em;
+    border: none;
+}
+.btnclear{
+    width: 75%;
+    font-size: 2em;
+}
+.btnclear, .btnzero{
+    border: none;
+}
+.btnnumber, .btnzero{
+    font-size: 1.5em;
+}
+.btnzero{
+    width: 50%;
+    border-bottom-left-radius: 1.5rem;
+}
+.btnequal{
+    border-bottom-right-radius: 1.5rem;
+}
+.btnclear:hover,
+.btndiv:hover,
+.btnmult:hover,
+.btnsub:hover,
+.btnsoma:hover,
+.btnnumber:hover,
+.btnzero:hover,
+.btndot:hover,
+.btnequal:hover{
+    background-color: rgb(210, 210, 210);
+}
